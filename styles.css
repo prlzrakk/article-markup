@@ -1,36 +1,42 @@
-
 /* Тут пиши основные стили */
 .article {
     width: 700px;
     margin: 55px auto 0;
 }
+
 .article-title {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
-    font-size:42px;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
-    line-height:44px;
+    font-size: 42px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 44px;
     margin-bottom: 10px;
 }
 
 .article-subheading {
-    font-family:LucidaGrande-Bold;
-    font-size:34px;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
-    line-height:39px;
+    font-family: LucidaGrande-Bold;
+    font-size: 34px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 39px;
 
 }
-img{
+
+img {
     display: block;
     max-width: 100%;
     height: auto;
 }
+
 .article-text {
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
     font-size: 21px;
     margin-bottom: 43px;
     line-height: 33px;
+}
+
+figure {
+    margin: 42px 0 37px;
 }
 
 code {
