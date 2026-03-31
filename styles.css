@@ -107,7 +107,29 @@ h1, h2, p {
 }
 
 @media (max-width: 800px) {
-    /* Тут пиши стили для мобилки.
-        Стили применятся только когда страничка будет ≤800px шириной
-     */
+    article{
+        width: auto;
+        margin: 24px 16px 0;
+    }
+
+    .article-title {
+        font-size: 32px;
+        line-height: 36px;
+        margin-bottom: 16px;
+    }
+
+    .article-text {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 28px;
+    }
+
+    figure{
+        margin: 24px 0;
+    }
+
+    code{
+        font-size: 18px;
+        line-height: 28px;
+    }
 }
